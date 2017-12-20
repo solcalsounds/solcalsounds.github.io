@@ -1,0 +1,166 @@
+@font-face {
+    font-family: 'glacial_indifferenceregular';
+    src: url('glacialindifference-regular-webfont.woff2') format('woff2'),
+         url('glacialindifference-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'glacial_indifferencebold';
+    src: url('glacialindifference-bold-webfont.woff2') format('woff2'),
+         url('glacialindifference-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+  background-image: url("images/bg3.png");
+  background-attachment: fixed;
+  color: white;
+  margin: 0;
+  font-family: 'glacial_indifferenceregular', sans-serif;
+  font-size: 0.8em;
+}
+.headerscroll {
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  z-index: 1000;
+}
+#header {
+  background-color: dimgray;
+  height: 60px;
+}
+#header a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+#header a:hover {
+  color: lightgray;
+}
+#header-title {
+  margin-top: 9px;
+  display: block;
+  float: left;
+  font-size: 26px;
+  font-family: 'glacial_indifferencebold';
+  border: 5px solid;
+  padding: 0 10px;
+}
+#header-nav {
+  display: block;
+  float: right;
+  margin-top: 23px;
+}
+#header-nav li {
+  display: inline;
+  padding-left: 20px;
+}
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.listen-container, .tour-container {
+  margin-top: 160px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+#contact {
+  height: 240px;
+  background-color: dimgray;
+  margin-top: 160px;
+  padding-top: 40px;
+  text-align: center;
+}
+
+.listen-title {
+  font-size: 40px;
+  letter-spacing: 0.2em;
+}
+.tourtitle {
+  display: inline;
+  letter-spacing: 0.2em;
+  border: 5px solid;
+  padding: 5px 15px;
+}
+.contactcontainer p {
+  padding-top: 20px;
+}
+
+#preorderlinks {
+  margin: 40px 0;
+}
+#preorderlinks a {
+  text-decoration: none;
+  color: white;
+}
+#preorderlinks li {
+  max-width: 800px;
+  font-size: 20px;
+  display: inline;
+  border: 5px solid;
+  padding: 10px 10px;
+  background-color: dimgray;
+}
+#preorderlinks li:hover {
+  opacity: 0.4;
+}
+.tourpost {
+  margin-top: 40px
+}
+
+#contact a {
+  text-decoration: none;
+}
+#contact a:hover {
+  color: lightgray;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 13px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+.fa a {
+  color: dimgray;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Facebook */
+.fa-facebook {
+    background: white;
+    color: dimgray;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: white;
+    color: dimgray;
+}
+/* Spotify */
+.fa-spotify {
+    background: white;
+    color: dimgray;
+}
+/* SoundCloud */
+.fa-soundcloud {
+    background: white;
+    color: dimgray;
+}
+/* BandCamp */
+.fa-bandcamp {
+    background: white;
+    color: dimgray;
+}
+/* Instagram */
+.fa-instagram {
+    background: white;
+    color: dimgray;
+}
